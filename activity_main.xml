@@ -1,0 +1,1585 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direction to reach Goal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#0000FF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:gravity="center"
+            android:rowCount="62" >
+
+            <ImageButton
+                android:id="@+id/accelfrontline"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="0"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/accelfrontline" />
+
+            <ImageButton
+                android:id="@+id/accenture"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="0"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/accenture" />
+            
+            <ImageButton
+                android:id="@+id/acer"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="1"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/acer" />
+
+            <ImageButton
+                android:id="@+id/adobe"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="1"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/adobe" />
+            
+            <ImageButton
+                android:id="@+id/adp"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="2"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/adp" />
+
+            <ImageButton
+                android:id="@+id/agc"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="2"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/agc" />
+            
+            <ImageButton
+                android:id="@+id/alight"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="3"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/alight" />
+
+            <ImageButton
+                android:id="@+id/amd"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="3"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/amd" />
+            
+            <ImageButton
+                android:id="@+id/apc"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="4"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/apc" />
+
+            <ImageButton
+                android:id="@+id/apple"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="4"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/apple" />
+            
+            <ImageButton
+                android:id="@+id/asus"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="5"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/asus" />
+
+            <ImageButton
+                android:id="@+id/aurionpro"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="5"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/aurionpro" />
+            
+            <ImageButton
+                android:id="@+id/birlasoft"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="6"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/birlasoft" />
+
+            <ImageButton
+                android:id="@+id/ca"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="6"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/ca" />
+            
+            <ImageButton
+                android:id="@+id/canon"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="7"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/canon" />
+
+            <ImageButton
+                android:id="@+id/capgemini"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="7"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/capgemini" />
+            
+            <ImageButton
+                android:id="@+id/careers"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="8"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/careers" />
+
+            <ImageButton
+                android:id="@+id/centurylink"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="8"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/centurylink" />
+            
+            <ImageButton
+                android:id="@+id/cisco"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="9"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/cisco" />
+
+            <ImageButton
+                android:id="@+id/citi"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="9"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/citi" />
+            
+            <ImageButton
+                android:id="@+id/citrix"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="10"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/citrix" />
+
+            <ImageButton
+                android:id="@+id/cmc"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="10"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/cmc" />
+            
+            <ImageButton
+                android:id="@+id/cognizant"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="11"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/cognizant" />
+
+            <ImageButton
+                android:id="@+id/compuage"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="11"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/compuage" />
+            
+            <ImageButton
+                android:id="@+id/core"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="12"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/core" />
+
+            <ImageButton
+                android:id="@+id/csc"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="12"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/csc" />
+            
+            <ImageButton
+                android:id="@+id/csscorp"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="13"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/csscorp" />
+
+            <ImageButton
+                android:id="@+id/cybage"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="13"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/cybage" />
+            
+            <ImageButton
+                android:id="@+id/cyient"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="14"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/cyient" />
+
+            <ImageButton
+                android:id="@+id/dell"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="14"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/dell" />
+            
+            <ImageButton
+                android:id="@+id/dellemc"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="15"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/dellemc" />
+
+            <ImageButton
+                android:id="@+id/deloitte"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="15"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/deloitte" />
+            
+            <ImageButton
+                android:id="@+id/directi"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="16"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/directi" />
+
+            <ImageButton
+                android:id="@+id/dlink"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="16"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/dlink" />
+            
+            <ImageButton
+                android:id="@+id/eclerx"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="17"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/eclerx" />
+
+            <ImageButton
+                android:id="@+id/epam"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="17"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/epam" />
+            
+            <ImageButton
+                android:id="@+id/epson"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="18"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/epson" />
+
+            <ImageButton
+                android:id="@+id/eurofins"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="18"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/eurofins" />
+            
+            <ImageButton
+                android:id="@+id/fortune"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="19"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/fortune" />
+
+            <ImageButton
+                android:id="@+id/fujitsu"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="19"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/fujitsu" />
+            
+            <ImageButton
+                android:id="@+id/genpact"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="20"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/genpact" />
+
+            <ImageButton
+                android:id="@+id/geometricplm"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="20"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/geometricplm" />
+            
+            <ImageButton
+                android:id="@+id/hcl"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="21"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/hcl" />
+
+            <ImageButton
+                android:id="@+id/hewlettpackardenterprise"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="21"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/hewlettpackardenterprise" />
+            
+            <ImageButton
+                android:id="@+id/hexaware"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="22"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/hexaware" />
+
+            <ImageButton
+                android:id="@+id/huawei"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="22"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/huawei" />
+            
+            <ImageButton
+                android:id="@+id/ibm"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="23"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/ibm" />
+
+            <ImageButton
+                android:id="@+id/igate"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="23"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/igate" />
+            
+            <ImageButton
+                android:id="@+id/ignatiuz"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="24"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/ignatiuz" />
+
+            <ImageButton
+                android:id="@+id/infinite"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="24"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/infinite" />
+            
+            <ImageButton
+                android:id="@+id/infosys"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="25"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/infosys" />
+
+            <ImageButton
+                android:id="@+id/ingram"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="25"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/ingram" />
+            
+            <ImageButton
+                android:id="@+id/intel"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="26"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/intel" />
+
+            <ImageButton
+                android:id="@+id/intellect"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="26"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/intellect" />
+            
+            <ImageButton
+                android:id="@+id/intergraph"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="27"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/intergraph" />
+
+            <ImageButton
+                android:id="@+id/intex"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="27"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/intex" />
+            
+            <ImageButton
+                android:id="@+id/iriscomputers"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="28"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/iriscomputers" />
+
+            <ImageButton
+                android:id="@+id/itcinfotech"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="28"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/itcinfotech" />
+            
+            <ImageButton
+                android:id="@+id/jpmorgan"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="29"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/jpmorgan" />
+
+            <ImageButton
+                android:id="@+id/juniper"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="29"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/juniper" />
+            
+            <ImageButton
+                android:id="@+id/kellyservices"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="30"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/kellyservices" />
+
+            <ImageButton
+                android:id="@+id/kpit"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="30"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/kpit" />
+            
+            <ImageButton
+                android:id="@+id/larsenandtoubroinfotech"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="31"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/larsenandtoubroinfotech" />
+
+            <ImageButton
+                android:id="@+id/lendingkart"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="31"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/lendingkart" />
+            
+            <ImageButton
+                android:id="@+id/lenovo"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="32"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/lenovo" />
+
+            <ImageButton
+                android:id="@+id/lgindia"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="32"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/lgindia" />
+            
+            <ImageButton
+                android:id="@+id/lycos"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="33"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/lycos" />
+
+            <ImageButton
+                android:id="@+id/mastek"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="33"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/mastek" />
+            
+            <ImageButton
+                android:id="@+id/microsoft"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="34"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/microsoft" />
+
+            <ImageButton
+                android:id="@+id/mindtree"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="34"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/mindtree" />
+            
+            <ImageButton
+                android:id="@+id/mphasis"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="35"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/mphasis" />
+
+            <ImageButton
+                android:id="@+id/neoteric"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="35"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/neoteric" />
+            
+            <ImageButton
+                android:id="@+id/netapp"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="36"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/netapp" />
+
+            <ImageButton
+                android:id="@+id/netsuite"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="36"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/netsuite" />
+            
+            <ImageButton
+                android:id="@+id/niit"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="37"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/niit" />
+
+            <ImageButton
+                android:id="@+id/nokia"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="37"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/nokia" />
+            
+            <ImageButton
+                android:id="@+id/nucleussoftware"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="38"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/nucleussoftware" />
+
+            <ImageButton
+                android:id="@+id/onmobile"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="38"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                                android:src="@drawable/onmobile" />
+            
+            <ImageButton
+                android:id="@+id/oracle"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="39"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/oracle" />
+
+            <ImageButton
+                android:id="@+id/persistent"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="39"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/persistent" />
+            
+            <ImageButton
+                android:id="@+id/polaris"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="40"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/polaris" />
+
+            <ImageButton
+                android:id="@+id/prospus"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="40"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/prospus" />
+            
+            <ImageButton
+                android:id="@+id/qlikq"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="41"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/qlikq" />
+
+            <ImageButton
+                android:id="@+id/redington"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="41"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/redington" />
+            
+            <ImageButton
+                android:id="@+id/ricoh"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="42"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/ricoh" />
+
+            <ImageButton
+                android:id="@+id/rolta"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="42"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/rolta" />
+            
+            <ImageButton
+                android:id="@+id/rs"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="43"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/rs" />
+
+            <ImageButton
+                android:id="@+id/rsystems"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="43"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                
+                android:src="@drawable/rsystems" />
+            
+            <ImageButton
+                android:id="@+id/sai"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="44"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/sai" />
+
+            <ImageButton
+                android:id="@+id/sap"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="44"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/sap" />
+            
+            <ImageButton
+                android:id="@+id/sasken"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="45"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/sasken" />
+
+            <ImageButton
+                android:id="@+id/savex"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="45"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/savex" />
+            
+            <ImageButton
+                android:id="@+id/seagate"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="46"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/seagate" />
+
+            <ImageButton
+                android:id="@+id/sify"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="46"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/sify" />
+            
+            <ImageButton
+                android:id="@+id/singtel"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="47"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/singtel" />
+
+            <ImageButton
+                android:id="@+id/sonata"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="47"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/sonata" />
+            
+            <ImageButton
+                android:id="@+id/sqs"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="48"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/sqs" />
+
+            <ImageButton
+                android:id="@+id/subex"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="48"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/subex" />
+            
+            <ImageButton
+                android:id="@+id/supertron"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="49"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/supertron" />
+
+            <ImageButton
+                android:id="@+id/symantec"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="49"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/symantec" />
+            
+            <ImageButton
+                android:id="@+id/synergy"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="50"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/synergy" />
+
+            <ImageButton
+                android:id="@+id/synopsys"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="50"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/synopsys" />
+            
+            <ImageButton
+                android:id="@+id/syntel"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="51"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/syntel" />
+
+            <ImageButton
+                android:id="@+id/systemsoft"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="51"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/systemsoft" />
+            
+            <ImageButton
+                android:id="@+id/take"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="52"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/take" />
+
+            <ImageButton
+                android:id="@+id/tataelxsi"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="52"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/tataelxsi" />
+            
+            <ImageButton
+                android:id="@+id/tatatechnologies"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="53"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/tatatechnologies" />
+
+            <ImageButton
+                android:id="@+id/tcs"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="53"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/tcs" />
+            
+            <ImageButton
+                android:id="@+id/teamcomputers"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="54"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/teamcomputers" />
+
+            <ImageButton
+                android:id="@+id/techmahinra"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="54"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+               
+                android:src="@drawable/techmahinra" />
+            
+            <ImageButton
+                android:id="@+id/threeiinfotech"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="55"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/threeiinfotech" />
+
+            <ImageButton
+                android:id="@+id/trigyn"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="55"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/trigyn" />
+            
+            <ImageButton
+                android:id="@+id/tsystems"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="56"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/tsystems" />
+
+            <ImageButton
+                android:id="@+id/vakrangee"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="56"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/vakrangee" />
+            
+            <ImageButton
+                android:id="@+id/valuelabs"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="57"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/valuelabs" />
+
+            <ImageButton
+                android:id="@+id/verizon"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="57"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/verizon" />
+            
+            <ImageButton
+                android:id="@+id/virtusa"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="58"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/virtusa" />
+
+            <ImageButton
+                android:id="@+id/visa"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="58"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/visa" />
+            
+            <ImageButton
+                android:id="@+id/vmware"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="59"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/vmware" />
+
+            <ImageButton
+                android:id="@+id/vsoftconsultinggroup"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="59"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/vsoftconsultinggroup" />
+            
+            <ImageButton
+                android:id="@+id/wipro"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="60"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/wipro" />
+
+            <ImageButton
+                android:id="@+id/xerox"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="60"
+                android:padding="30dp"
+                 android:background="@android:color/transparent"
+                 
+                android:src="@drawable/xerox" />
+            
+            <ImageButton
+                android:id="@+id/zensar"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="0"
+                android:layout_gravity="left|top"
+                android:layout_row="61"
+                android:layout_marginLeft="20dp"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+                
+                android:src="@drawable/zensar" />
+
+            <ImageButton
+                android:id="@+id/zylogsystems"
+                android:layout_width="142dp"
+                android:layout_height="135dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_row="61"
+                android:padding="30dp"
+                android:background="@android:color/transparent"
+               
+                android:src="@drawable/zylogsystems" />
+            
+            
+
+        </GridLayout>
+       
+    </ScrollView>
+
+   
+
+</LinearLayout>
